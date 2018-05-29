@@ -7,7 +7,7 @@
 </head>
 <body>
 
-@include('layouts._header')
+    @include('layouts._header')
 
     <div class="container">
         @include('shared._messages')
@@ -15,5 +15,6 @@
         @include('layouts._footer')
     </div>
 
+    <script src="/js/app.js"></script>
 </body>
 </html>
